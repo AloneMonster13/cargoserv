@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cargoserv</title>
+    <meta name="keywords" content="Cargoserv Shipping Ltd">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicons  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.png">
+    <!-- framework of css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+    <!-- default sheet of css -->
+    <link rel="stylesheet" href="assets/css/default.css">
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- font awesome icon link  -->
+    <link rel="stylesheet" href="assets/font-awesome-lib/icon/all.min.css">
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animation of css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <!-- 1.1. Header section -->
+        <header>
+            <div class="container">
+                <!-- Main Navbar -->
+                <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="nav-logo" href="home.html">
+            <figure><img src="assets/images/logo1.png" alt="logo"></figure>
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About Us</a>
+                </li>
+                
+
+                <li class="dropdown">
+                    <a class="nav-link" href="Services.html">Services <i class="fa-sharp fa-solid fa-sort-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Distribution.html">Distribution</a></li>
+                        <li><a class="dropdown-item" href="FreightForwarding.html">Freight Forwarding</a></li>
+                        <li><a class="dropdown-item" href="CustomHouseBrokerage.html">Custom House Brokerage</a></li>
+                        <li><a class="dropdown-item" href="ProjectCargo.html">Project Cargo Handling</a></li>
+                        <li><a class="dropdown-item" href="3PL.html">3PL Services</a></li>
+                        <li><a class="dropdown-item" href="InlandTransport.html">Domestic Transportation</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sustainability.html">Sustainability</a>
+                </li>
+
+                <li class="dropdown">
+                    <a class="nav-link" href="#">Pages <i class="fa-sharp fa-solid fa-sort-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="OurProjects.html">Our Projects</a></li>
+                        <li><a class="dropdown-item" href="Faq.html">FAQs</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="Team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="Contact.html" class="hover1">Get a Court</a>
+        </div>
+        <button onclick="open_aside()" type="button" aria-label="openSide">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</nav>
+
+                <!-- Side Navbar for Small Screen -->
+
+                
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Floating Buttons</title>
+                    <style>
+                      body {
+                        margin: 0;
+                        font-family: 'Gilroy';
+                      }
+                  
+                      .floating-buttons {
+                        position: fixed;
+                        right: 20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        z-index: 1000;
+                      }
+                  
+                      .floating-buttons a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 14.06px 0; /* Increased spacing */
+                        width: 46.88px; /* Increased by another 25% from 37.5px */
+                        height: 46.88px; /* Increased by another 25% from 37.5px */
+                        border-radius: 50%;
+                        text-align: center;
+                        background-color: #f3f3f3;
+                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.3s ease, box-shadow 0.3s ease;
+                      }
+                  
+                      .floating-buttons a:hover {
+                        transform: scale(1.1);
+                        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+                      }
+                  
+                      .floating-buttons a img {
+                        width: 50%; /* Adjust icon size to fit center */
+                        height: 50%;
+                        object-fit: contain;
+                      }
+
+                      .carousel-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    gap: 10px; /* Space between posts on mobile */
+    transition: transform 0.5s ease-in-out;
+}
+
+.post {
+    width: 100%; /* Full width on mobile */
+    flex-shrink: 0; /* Prevent shrinking */
+    text-align: center; /* Center-align content */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+    width: 100%;
+    height: 200px; /* Reduced height for better mobile view */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.created-time {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Media Queries for responsiveness on different devices */
+@media (min-width: 768px) {
+    .post {
+        width: 50%; /* Show two posts at a time on tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .post {
+        width: 33.33%; /* Show three posts at a time on larger screens */
+    }
+}
+
+                    </style>
+                  </head>
+                  <body>
+                    <!-- Floating Buttons -->
+                    <div class="floating-buttons">
+                      <a href="https://wa.me/+94765331181" target="_blank" title="WhatsApp">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                      </a>
+                      <a href="mailto:marketing@cargoserv.lk" title="Email">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                      </a>
+                      <a href="tel:+94765331181" title="Call">
+                        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Call">
+                      </a>
+                    </div>
+                  </body>
+  </html>
+  
+
+                  
+                <aside>
+    <div id="sideNav">
+        <div class="d-flex nav-logo">
+            <figure class="navbar-brand">
+                <a href="home.html"><img src="assets/images/logo1.png" alt="logo"></a>
+            </figure>
+            <button class="fa-solid fa-xmark" onclick="close_aside()" aria-label="closeSide"></button>
+        </div>
+        <ul>
+            <li class="nav-item">
+                <a class="active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="About.html">About Us</a>
+            </li>
+            
+
+            <li class="nav-item">
+                <div id="slid-btn">
+                    <button>Services</button>
+                    <i class="fa-solid fa-caret-down ps-2"></i>
+                </div>
+                <ul id="slid-drop">
+                    <li><a href="Distribution.html">Distribution</a></li>
+                    <li><a href="FreightForwarding.html">Freight Forwarding</a></li>
+                    <li><a href="Customs House Brokerage.html">Customs House Brokerage</a></li>
+                    <li><a href="ProjectCargo.html">Project Cargo Handling</a></li>
+                    <li><a href="3PL.html">3PL Services</a></li>
+                    <li><a href="DomesticTranspotation.html">Domestic Transportation</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="Sustainability.html">Sustainability</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="Team.html">Team</a>
+            </li>
+            <li class="nav-item">
+                <a href="Contact.html">Contact</a>
+            </li>
+
+            <li class="nav-item">
+                <div id="slid-btn">
+                    <button>Pages</button>
+                    <i class="fa-solid fa-caret-down ps-2"></i>
+                </div>
+                <ul id="slid-drop">
+                    <li><a href="OurProjects.html">Our Projects</a></li>
+                    <li><a href="Faq.html">FAQs</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</aside>
+
+        </header>
+        <!-- End of 1.1. Header section -->
+        <!-- 1.2. Hero section -->
+<section class="Hero">
+    <!-- Video Background Container -->
+    <div class="hero-video-bg">
+        <video autoplay muted loop playsinline>
+            <source src="assets/videos/hero-background.mp4" type="video/mp4">
+            <!-- Fallback image if video doesn't load -->
+            <img src="assets/images/bg/2.png" alt="Fallback Hero Background">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    
+    <div class="container">
+        <div data-aos="fade-up">
+            <h1>Global Freight & Logistics Excellence</h1>
+            <div><a href="Contact.html" class="hover2">Contact Us</a></div>
+        </div>               
+    </div>
+</section>
+<!-- Spacer section added here -->
+<div class="hero-details-spacer" style="height: 60px;"></div>
+
+        <!-- 1.3. About-us section -->
+        <section class="About-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="d-flex gap-3 position-relative justify-content-center">
+                            <div class="d-flex gap-3 flex-column justify-content-between">
+                                <figure>
+                                    <img src="assets/images/index/about01.png" alt="aboutImg1">
+                                </figure>
+                                <figure>
+                                    <img src="assets/images/index/about2.png" alt="aboutImg2">
+                                </figure>
+                            </div>
+                            <figure>
+                                <img src="assets/images/index/about03.png" alt="aboutImg3">
+                            </figure>
+                            <div class="experience">
+                                <h2 class="m-0 "><span class="number" data-final-value="30">0</span>+</h2>
+                                <p class="m-0">Years of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div data-aos="fade-up">
+                            <h4>About Us</h4>
+                            <h2 class="mt-0">We Provide Logistics Services <span>Focused On Quality</span></h2>
+                            <p>We are Cargoserv — a proud member of the Ceyline Group, established in 1993 as a shipping and logistic agency. From the outset, our goal has been to expand into freight forwarding, cargo consolidation, and related freight services. We started as a niche player in these areas and quickly earned our reputation as a trusted and dynamic force in the industry.</p>
+                            <div><a href="About.html" class="hover1">Read More</a></div>
+                            <div class="d-flex align-items-stretch justify-content-between gap-3 mx-auto my-3 m-lg-0"
+                                data-aos="flip-up">
+                                <div class="d-flex gap-3 align-items-start">
+                                    <img class="pt-1" src="assets/images/icons/drop_shipping.png" alt="aboutIcon1">
+                                    <h5 class="pt-2">Affordable Cost</h5>
+                                </div>
+                                <hr>
+                                <div class="d-flex gap-3 align-items-start">
+                                    <img src="assets/images/icons/delivery.png" alt="aboutIcon2">
+                                    <h5 class="pt-2">Short Time Delivery</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-center">Trusted By Companies</div></h2>
+                    <div class="CompaniesSlider  ">
+                        <div><a href="#"><img src="assets/images/icons/logoipsum1.png" alt="logo1"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum2.png" alt="logo2"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum3.png" alt="logo3"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum4.png" alt="logo4"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum5.png" alt="logo5"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum6.png" alt="logo6"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum7.png" alt="logo7"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum8.png" alt="logo8"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum9.png" alt="logo9"></a></div>
+                        <div><a href="#"><img src="assets/images/icons/logoipsum10.png" alt="logo10"></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of 1.3. About-us section -->
+
+        <!--  1.5. Logistics section -->
+
+    <section class="logistics-graphic-section" style="position: relative; background: #0a2e4d; color: white; padding: 80px 20px; overflow: hidden; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <div class="container" style="position: relative; z-index: 2; max-width: 900px; margin: auto;">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <h4 style="color: #6be2e8; font-weight: 600; letter-spacing: 4px; text-transform: uppercase;">Sustainability</h4>
+      <h2 style="font-weight: 700; font-size: 2.8rem; margin-top: 10px;">Driving Green Forward with Innovative Cargo Solutions</h2>
+      <p style="font-size: 1.25rem; max-width: 600px; margin: 20px auto;">
+        Harnessing the power of rail transport to reduce carbon footprints, save forests, and revolutionize sustainable logistics.
+      </p>
+      <button onclick="window.location.href='Sustainability.html'" style="background: #6be2e8; border: none; padding: 14px 42px; border-radius: 30px; font-weight: 700; font-size: 1.1rem; color: #0a2e4d; cursor: pointer; transition: background 0.3s ease;">
+        Learn More
+      </button>
+    </div>
+  </div><br><br><br>
+
+  <!-- Static Railway Tracks -->
+  <svg viewBox="0 0 1200 300" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; height: 200px; z-index: 1;">
+    <rect x="0" y="150" width="1200" height="10" fill="#2c8dca" />
+    <rect x="0" y="180" width="1200" height="10" fill="#2c8dca" />
+    <g stroke="#2c8dca" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="50" y1="150" x2="50" y2="190" />
+      <line x1="150" y1="150" x2="150" y2="190" />
+      <line x1="250" y1="150" x2="250" y2="190" />
+      <line x1="350" y1="150" x2="350" y2="190" />
+      <line x1="450" y1="150" x2="450" y2="190" />
+      <line x1="550" y1="150" x2="550" y2="190" />
+      <line x1="650" y1="150" x2="650" y2="190" />
+      <line x1="750" y1="150" x2="750" y2="190" />
+      <line x1="850" y1="150" x2="850" y2="190" />
+      <line x1="950" y1="150" x2="950" y2="190" />
+      <line x1="1050" y1="150" x2="1050" y2="190" />
+      <line x1="1150" y1="150" x2="1150" y2="190" />
+    </g>
+  </svg>
+
+  <!-- Animated Cargo Train -->
+  <div style="position: absolute; bottom: 50px; left: -900px; width: 900px; height: 100px; z-index: 2; animation: moveTrain 20s linear infinite; display: flex; gap: 10px;">
+    
+
+    <!-- Cargo Car 1 -->
+    <svg viewBox="0 0 200 100" style="width: 200px; height: 100%;">
+      <rect x="0" y="30" width="180" height="50" rx="10" ry="10" fill="#4fc1e9" />
+      <circle cx="30" cy="90" r="8" fill="#1b6ca8" />
+      <circle cx="150" cy="90" r="8" fill="#1b6ca8" />
+    </svg>
+
+    <!-- Cargo Car 2 -->
+    <svg viewBox="0 0 200 100" style="width: 200px; height: 100%;">
+      <rect x="0" y="30" width="180" height="50" rx="10" ry="10" fill="#4fc1e9" />
+      <circle cx="30" cy="90" r="8" fill="#1b6ca8" />
+      <circle cx="150" cy="90" r="8" fill="#1b6ca8" />
+    </svg>
+
+<!-- Engine -->
+    <svg viewBox="0 0 300 100" style="width: 300px; height: 100%;">
+      <rect x="0" y="20" width="280" height="60" rx="15" ry="15" fill="#6be2e8" />
+      <circle cx="50" cy="90" r="10" fill="#1b6ca8" />
+      <circle cx="200" cy="90" r="10" fill="#1b6ca8" />
+      <rect x="20" y="5" width="100" height="30" fill="#33b1de" rx="8" ry="8" />
+      <rect x="140" y="5" width="110" height="30" fill="#2c8dca" rx="8" ry="8" />
+      <rect x="260" y="10" width="20" height="50" fill="#1b6ca8" />
+    </svg>
+
+  </div>
+
+  <style>
+    @keyframes moveTrain {
+      0% { left: -900px; }
+      100% { left: 100%; }
+    }
+  </style>
+</section>
+
+
+        <!-- End of 1.5. Logistics section -->
+
+        <!-- 1.6. Choose-us section -->
+        <section class="Choose-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div data-aos="fade-up">
+                            <h4>Why Choose Us</h4>
+                            <h2>Trusted By Thousands <span>Of Happy Customers</span></h2>
+                            <p>As a fully integrated freight forwarding service provider, we are dedicated to delivering a seamless shipping experience. From start to finish, we manage every step of the logistics process with transparency, care, and efficiency. Our customer-focused approach makes us the perfect partner for businesses seeking dependable and cost-effective shipping solutions.</p>
+                            <div><a href="Services.html" class="hover1">Read More</a></div>
+                            <div class="d-flex">
+                                
+                                <div data-aos="flip-left">
+                                    <figure><img src="assets/images/icons/headphone.png" alt="chooseUsIcon2"></figure>
+                                    <h3>24/7 Online Support</h3>
+                                    <p>Round-the-clock support for your needs, anytime, anywhere.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <figure data-aos="fade-up">
+                            <img src="assets/images/index/whychoose.png" alt="chooseUsImg">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of 1.6. Choose-us section -->
+
+        <!-- 1.7. Achievements section -->
+        <section class="Achievements">
+            <div class="container">
+                <div class="text-center">
+                    <h4>Who We Are</h4>
+                    <h2>Global Achievements</h2>
+                    <p>We are proud to deliver exceptional logistics solutions backed by a strong commitment to innovation, reliability, and customer satisfaction—making a global impact.
+
+</p>
+                </div>
+                <div class="row gy-4 mt-4 justify-content-center">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center h-100" data-aos="zoom-in">
+                            <h1><span class="number" data-final-value="30">0</span>+</h1>
+                            <h3>Years Of Experience</h3>
+                            <p>Three decades of excellence in delivering top-notch logistics solutions across the globe.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center h-100" data-aos="zoom-in">
+                            <h1><span class="number" data-final-value="60">0</span>+</h1>
+                            <h3>Countries Covered</h3>
+                            <p>Expansive reach with operations in over 60 countries, ensuring seamless global connectivity.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center h-100" data-aos="zoom-in">
+                            <h1><span class="number" data-final-value="110">0</span>+</h1>
+                            <h3>Worldwide Clients</h3>
+                            <p>Trusted by more than 110 global clients, showcasing our commitment to satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- End of 1.7. Achievements section -->
+
+           
+        
+
+        <!-- 1.10. Testimonials section -->
+        <section class="Memberships" style="text-align: center; padding: 50px 0;">
+            <div class="container">
+                <h4 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Our Memberships</h4>
+                <h2 style="font-size: 36px; margin-bottom: 20px;">Organizations We Are Proudly Part Of</h2>
+                <p style="font-size: 18px; max-width: 600px; margin: 0 auto; margin-bottom: 40px;">
+                    We take pride in being members of these esteemed organizations.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 187.5px; height: 187.5px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                        <img src="assets/images/Slider/membership_logo2.png" alt="Membership 2" style="max-width: 100%; max-height: 100%; transition: transform 0.3s ease;" class="zoom-image">
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 187.5px; height: 187.5px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                        <img src="assets/images/Slider/membership_logo3.png" alt="Membership 3" style="max-width: 100%; max-height: 100%; transition: transform 0.3s ease;" class="zoom-image">
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 187.5px; height: 187.5px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                        <img src="assets/images/Slider/membership_logo4.png" alt="Membership 4" style="max-width: 100%; max-height: 100%; transition: transform 0.3s ease;" class="zoom-image">
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 187.5px; height: 187.5px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                        <img src="assets/images/Slider/membership_logo5.png" alt="Membership 5" style="max-width: 100%; max-height: 100%; transition: transform 0.3s ease;" class="zoom-image">
+                    </div>
+                    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 187.5px; height: 187.5px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease;">
+                        <img src="assets/images/Slider/membership_logo1.png" alt="Membership 1" style="max-width: 100%; max-height: 100%; transition: transform 0.3s ease;" class="zoom-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+            /* Zoom animation on hover */
+            .zoom-image:hover {
+                transform: scale(1.2); /* Enlarges the image on hover */
+            }
+        </style>
+        
+        
+        <!-- End of 1.10. Testimonials section -->
+
+        
+        <!-- 1.12. Guide section -->
+        <section class="Guide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="Guide-video" data-bs-toggle="modal" data-bs-target="#staticBackdropVideo">
+                            <a class="video-play-button">
+                                <span class="fa-solid fa-play"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div data-aos="fade-down">
+                            <h4>We are Logistics</h4>
+                            <h2>Your Guide to global Logistics in World</h2>
+                            <div><a href="Contact.html" class="hover2">Contact Us</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="staticBackdropVideo" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered h-100 my-0 mx-auto">
+                    <div class="modal-content d-flex align-items-center justify-content-center border-0">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                    class="fa-solid fa-xmark"></i></button>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VCpyHGDSl5s?si=-8dahQfj3hjdnchH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of 1.12. Guide section -->
+<br>
+        <!-- 1.12.1. Banner to Projects Page -->
+<section class="project-banner-alt" style="font-family: 'Segoe UI', sans-serif; background: url('assets/images/your-background.jpg') center/cover no-repeat; padding: 100px 20px; position: relative;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(253, 248, 225, 0.85); z-index: 0;"></div>
+
+  <div style="position: relative; z-index: 1; max-width: 1200px; margin: auto;">
+    <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 40px;">
+      <!-- Left Text Content -->
+      <div style="flex: 1; min-width: 300px;" data-aos="zoom-in-up">
+        <h1 style="font-size: 2.8rem; font-weight: 800; color: #0a2e4d; margin-bottom: 10px;">Global Project Excellence</h1>
+        <h3 style="font-size: 1.6rem; font-weight: 600; color: #1e547e; margin-bottom: 20px;">Delivering Excellence Across Borders</h3>
+        <p style="font-size: 1rem; color: #444; max-width: 600px; line-height: 1.6;">From port terminals to remote inland deliveries, our impact spans continents. Discover how our logistics services shape efficient, sustainable transport across the globe.</p>
+        <button onclick="window.location.href='OurProjects.html'" style="margin-top: 30px; background-color: #003a63; color: #fff; border: none; padding: 12px 28px; border-radius: 50px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: background 0.3s ease;">Explore Projects</button>
+      </div>
+
+      <!-- Right Image Grid -->
+      <div style="flex: 1; min-width: 300px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;" data-aos="zoom-in">
+        <img src="assets/images/project1.jpg" alt="Project 1" style="width: 100%; border-radius: 12px; transform: rotate(-3deg); box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        <img src="assets/images/project2.jpg" alt="Project 2" style="width: 100%; border-radius: 12px; transform: rotate(2deg); box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        <img src="assets/images/project3.jpg" alt="Project 3" style="width: 100%; border-radius: 12px; transform: rotate(-2deg); box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+        <img src="assets/images/project4.jpg" alt="Project 4" style="width: 100%; border-radius: 12px; transform: rotate(1.5deg); box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- End of 1.12.1. Banner to Projects Page -->
+
+
+
+        <!-- 1.13. Questions section -->
+        <section class="Questions">
+            <div class="container">
+                <h4>Popular Questions</h4>
+                <h2>Client Questions</h2>
+                <p>Find answers to your queries about our services, shipping, and logistics. At Cargoserv, we prioritize clear communication and your satisfaction.
+                </p>
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <div class="accordion" id="accordionExample" data-aos="fade-up">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What documents are required for importing goods?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h3>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>
+                                            • 
+                                            Commercial Invoice: A detailed bill provided by the exporter, outlining the goods and their value.<br>
+                                            •
+                                            Packing List: Describes the items, their packaging, weight, and dimensions.<br>
+                                            •
+                                            Bill of Lading (BOL)/Airway Bill (AWB): A transport document issued by the carrier.<br>
+                                            •
+                                            Import License: If required by the importing country.<br>
+                                            •
+                                            Certificate of Origin: Certifies the country of origin of the goods.<br>
+                                            •
+                                            Customs Declaration: Includes information about the shipment, required by the customs authorities.<br>
+                                            •
+                                            Insurance Certificate: Proof of insurance coverage for the shipment.<br>
+                                            •
+                                            Product-Specific Certificates: Such as phytosanitary, health, or quality certifications, depending on the product. (If Applicable)</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        What documents are required for exporting goods?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h3>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>•
+                                            Commercial Invoice: A detailed bill provided to the buyer.<br>
+                                            •
+                                            Packing List: Details the contents of the shipment.<br>
+                                            •
+                                            Bill of Lading (BOL)/Airway Bill (AWB): Issued by the carrier as proof of shipment.<br>
+                                            •
+                                            Export License: If required by the exporting country.<br>
+                                            •
+                                            Certificate of Origin: Indicates the origin of the goods.<br>
+                                            •
+                                            Customs Declaration: Information about the export for customs clearance.<br>
+                                            •
+                                            Export Packing Certificate: Sometimes required for specific goods.<br>
+                                            •
+                                            Pro Forma Invoice: A preliminary bill for customs or pre-shipment agreements.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Are there any additional documents needed for specific goods?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h3>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>Yes, depending on the type of goods, additional documentation may be required. For example:<br>
+                                            •
+                                            Agricultural Products: Phytosanitary certificates or fumigation certificates.<br>
+                                            •
+                                            Food Items: Health certificates or FDA approvals.<br>
+                                            •
+                                            Hazardous Goods: Material Safety Data Sheet (MSDS).<br>
+                                            •
+                                            Textiles: Export authorization or quota certificates.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        How promptly does our company respond to client inquiries.
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h3>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>We prioritize prompt communication and aim to respond to all client inquiries within 24 hours. Our expertise customer support team is available 24 hours to address your questions and provide solutions efficiently.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Which freight forwarder networks does our company represent?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h3>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>•
+                                            WCA (World Cargo Alliance): A renowned network of independent freight forwarders offering comprehensive logistics solutions worldwide.<br>
+                                            •
+                                            DF Alliance by DP World: A trusted network providing seamless logistics and trade solutions backed by DP World’s global infrastructure.<br>
+                                            •
+                                            Sinotrans: One of the largest and most reliable freight forwarding networks in Asia, delivering top-tier supply chain services.1<br>
+                                        
+                                            Through these partnerships, we ensure access to extensive global coverage, reliable services, and competitive rates for our clients.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <figure class="d-flex justify-content-around" data-aos="fade-down"><img
+                                src="assets/images/index/clients.png" alt="managersImage"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of 1.13. Questions section -->
+
+       <!-- 1.14. News section -->
+        <section style="background-color: #f3f4f6; padding: 1.5rem 0.5rem;">
+            <h4 style="font-size: 1.5rem; font-weight: 600; color: #1f2937; text-align: center; margin-bottom: 1.5rem;">Latest News</h4>
+          
+            <div style="position: relative; overflow: hidden; width: 100%;">
+              <div id="carousel-container" style="width: 100%; overflow: hidden;">
+                <div id="carousel" style="display: flex; transition: transform 0.5s ease-in-out;">
+                  <!-- Facebook posts injected here -->
+                </div>
+              </div>
+          
+              <div style="display: flex; justify-content: space-between; margin-top: 1rem; max-width: 320px; margin-left: auto; margin-right: auto;">
+                <button id="prevBtn" style="padding: 0.5rem 1rem; background-color: #d1d5db; color: #374151; border-radius: 0.5rem; cursor: pointer;" disabled>&lt;</button>
+                <button id="nextBtn" style="padding: 0.5rem 1rem; background-color: #d1d5db; color: #374151; border-radius: 0.5rem; cursor: pointer;">&gt;</button>
+              </div>
+            </div>
+          </section>
+        <!-- End of 1.14. News section -->
+         <!-- hf -->
+
+                <!-- 1.15. Subscribe section -->
+                <section class="Subscribe">
+                    <div class="container">
+                        <div class="position-relative">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5">
+                                    <figure><img src="assets/images/index/news.png" alt="personsImage"></figure>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="content">
+                                        <h3>Subscribe Our News Letter</h3>
+                                        <h2>Get in Touch, Stay Updated!</h2>
+                                        <form>
+                                            <div>
+                                                <input type="email" name="subscribeMail" placeholder="Type Your Email" required>
+                                                <button type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <img src="assets/images/icons/submitted.gif" alt="submitIcon">
+                                    <div>
+                                        <h3>Email Submitted</h3>
+                                        <h6>Your Email has been successfully submitted. Thanks for Subscribing</h6>
+                                    </div>
+                                    <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End of 1.15. Subscribe section -->
+                
+                <!-- 1.16. Footer section -->
+                <footer>
+                    <div class="container">
+                        <div class="d-flex content">
+                            <div class="d-flex flex-column gap-4 justify-content-between">
+                                <div class="d-flex align-items-center flex-column gap-5">
+                                    <div>
+                                        <figure><a href="home.html"><img src="assets/images/logo2.png" alt="logo"></a></figure>
+                                    </div>
+                                    <div class="social d-flex">
+                                        <a href="https://www.facebook.com/profile.php?id=61569230769175" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/cargoserv_shipping" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/cargoserv-shipping-ltd" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-lg-5 gap-md-4 gap-4 align-items-end flex-wrap">
+                                    <div>
+                                        <a href="https://maps.app.goo.gl/gkwPoSF1go8SyJfW7" target="_blank" rel="noopener noreferrer">
+                                            <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                                <div><i class="fa-solid fa-house"></i></div>
+                                                <div>
+                                                    <h4>Company Address</h4>
+                                                    <p>No. 1 Alfred House Avenue, Colombo 3, Sri Lanka</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="mailto:marketing@cargoserv.lk">
+                                            <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                                <div><i class="fa-solid fa-envelope"></i></div>
+                                                <div>
+                                                    <h4>Email Address</h4>
+                                                    <p>marketing@cargoserv.lk</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <a href="tel:+94765331181">
+                                            <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                                <div><i class="fa-solid fa-phone"></i></div>
+                                                <div>
+                                                    <h4>Phone Number</h4>
+                                                    <p>+94 76 533 1181</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <ul class="d-flex m-0">
+                                    <li><a href="home.html">Home</a></li>
+                                    <li><a href="About.html">About Us</a></li>
+                                    <li><a href="Services.html">Services</a></li>
+                                    <li><a href="Team.html">Team</a></li>
+                                    <li><a href="Contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="container">
+                            <p>Copyright &copy; Cargoserv 2024. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="scrollToTop">
+                        <div class="arrowUp">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                        <div class="water">
+                            <svg viewBox="0 0 560 20" class="water_wave water_wave_back">
+                                <use xlink:href="#wave"></use>
+                            </svg>
+                            <svg viewBox="0 0 560 20" class="water_wave water_wave_front">
+                                <use xlink:href="#wave"></use>
+                            </svg>
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 560 20" style="display: none;">
+                                <symbol id="wave">
+                                    <path
+                                        d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z">
+                                    </path>
+                                    <path
+                                        d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z">
+                                    </path>
+                                    <path
+                                        d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z">
+                                    </path>
+                                    <path
+                                        d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z">
+                                    </path>
+                                </symbol>
+                            </svg>
+                        </div>
+                    </div>
+                </footer>
+                
+                <!-- End of 1.16. Footer section -->
+                </div>
+
+
+    <!-- bootstrap min javascript -->
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- slick slider js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- main javascript -->
+    <script src="assets/js/custom.js"></script>
+    <!-- animation from javascript -->
+    <script src="assets/js/aos.js"></script>
+
+
+
+
+
+<script>
+    const pageId = "61569230769175";
+    const accessToken = "EAAN8sJZAFLZAMBOZCYOKAFcnSaphYJ1DcX1b4uEu7qZBribia1dvMlycTZCyTMyAO4xLrRaCE897F5YnBcBhJ303fcxbJONZCXZC0GcrxOcqaJDd97vEzMz7tvdD3oD7bdc4pHvWZA0AXF4aZCyitdA9ooCcfuSAjDJ93nC2f1oLxd0MSwTSlVhf0tsO7FiWSfQMVQPNcRNWg";
+    const url = "https://graph.facebook.com/v15.0/457763814094558/posts?fields=id,message,created_time,attachments{media}&access_token=" + accessToken;
+    
+   
+  let posts = [];
+  let currentIndex = 0;
+  let postsPerView = 1;
+
+  async function fetchPosts() {
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+
+      posts = data.data.filter(post => {
+        const attachments = post.attachments?.data || [];
+        return attachments.some(att => {
+          if (att.media?.image?.src) return true;
+          if (att.subattachments?.data) {
+            return att.subattachments.data.some(subAtt => subAtt.media?.image?.src);
+          }
+          return false;
+        });
+      }).slice(0, 10);
+
+      const carousel = document.getElementById("carousel");
+      carousel.innerHTML = "";
+
+      posts.forEach(post => {
+        let imageSrc = null;
+        for (const att of post.attachments.data) {
+          if (att.media?.image?.src) {
+            imageSrc = att.media.image.src;
+            break;
+          }
+          if (att.subattachments?.data) {
+            for (const subAtt of att.subattachments.data) {
+              if (subAtt.media?.image?.src) {
+                imageSrc = subAtt.media.image.src;
+                break;
+              }
+            }
+            if (imageSrc) break;
+          }
+        }
+
+        const slide = document.createElement("div");
+        slide.style.display = "flex";
+        slide.style.justifyContent = "center";
+        slide.style.boxSizing = "border-box";
+
+        slide.innerHTML = `
+          <div style="width: 100%; max-width: 400px; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <img src="${imageSrc}" alt="Facebook post image"
+              style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"
+              onerror="this.parentElement.style.display='none'">
+          </div>
+        `;
+
+        slide.onclick = () => {
+          window.open(`https://www.facebook.com/${post.id}`, "_blank");
+        };
+
+        carousel.appendChild(slide);
+      });
+
+      setPostsPerView();
+      updateSlideWidths();
+      setupCarousel();
+    } catch (err) {
+      console.error("Error fetching posts:", err);
+    }
+  }
+
+  function setPostsPerView() {
+    const width = window.innerWidth;
+    if (width >= 1024) postsPerView = 3;
+    else if (width >= 768) postsPerView = 2;
+    else postsPerView = 1;
+  }
+
+  function updateSlideWidths() {
+    const carousel = document.getElementById("carousel");
+    const slides = carousel.children;
+
+    // Completely reset carousel styles
+    carousel.style.cssText = `
+        display: flex !important;
+        transition: transform 0.5s ease-in-out !important;
+        gap: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    `;
+
+    for (let i = 0; i < slides.length; i++) {
+      const slide = slides[i];
+      
+      if (window.innerWidth >= 1024) {
+        // Large screens - 3 images with 2px gap
+        slide.style.cssText = `
+            display: flex !important;
+            justify-content: center !important;
+            box-sizing: border-box !important;
+            flex: none !important;
+            width: calc(33.333% - 1.33px) !important;
+            margin-right: ${i % 3 === 2 ? '0px' : '2px'} !important;
+            margin-left: 0 !important;
+            padding: 0 !important;
+        `;
+      } else if (window.innerWidth >= 768) {
+        // Medium screens - 2 images
+        slide.style.cssText = `
+            display: flex !important;
+            justify-content: center !important;
+            box-sizing: border-box !important;
+            flex: none !important;
+            width: calc(50% - 2px) !important;
+            margin-right: ${i % 2 === 1 ? '0px' : '4px'} !important;
+            margin-left: 0 !important;
+            padding: 0 !important;
+        `;
+      } else {
+        // Small screens - 1 image
+        slide.style.cssText = `
+            display: flex !important;
+            justify-content: center !important;
+            box-sizing: border-box !important;
+            flex: none !important;
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        `;
+      }
+    }
+  }
+  function setupCarousel() {
+    const carousel = document.getElementById("carousel");
+    const total = posts.length;
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    function updateButtons() {
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex >= total - postsPerView;
+    }
+
+    function move() {
+      const offset = currentIndex * (100 / postsPerView);
+      carousel.style.transform = `translateX(-${offset}%)`;
+      updateButtons();
+    }
+
+    prevBtn.onclick = () => {
+      if (currentIndex > 0) currentIndex--;
+      move();
+    };
+
+    nextBtn.onclick = () => {
+      if (currentIndex < total - postsPerView) currentIndex++;
+      move();
+    };
+
+    setInterval(() => {
+      if (currentIndex < total - postsPerView) currentIndex++;
+      else currentIndex = 0;
+      move();
+    }, 10000);
+
+    move();
+  }
+
+  window.addEventListener("resize", () => {
+    setPostsPerView();
+    updateSlideWidths();
+    setupCarousel();
+  });
+
+  fetchPosts();
+</script>
+    
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1500,
+        });
+    </script>
+
+</body>
+
+</html>
